@@ -1,0 +1,8 @@
+17553b3638fda56faa8c25da49eba29fc0843502f8d2936696bf234edf828381  TEST-GUIDE.md
+d21514beb8b34bebb6f3042b53dbb64ba74d106dee8540d5d5a8f18986b2a873  app-updater/0.1.0-test.3/appupdater-arm64.exe
+4b269686434f4e741dc10f80509b31571e4c4069d09164ccd56f101d8b3ec97d  app-updater/0.1.0-test.3/appupdater-x64.exe
+664abf27a03facb4ecf6f238a6289b4a40200ea4cf6ce2add67a908e78cc1765  manifest.test.json
+7211efd448938153367b1dc4964a4bc4ec784c69679b17fbe91fd82cb6ad60ea  manifest.test.json.sig
+0dd2fda6184964acc873d2c6070d49c8fd4f6ee596f0a51190db9061db1f6cb4  office-suite/postinstall.ps1
+d0aebb282238d52b9939608cbcfe62bcc425197c0123f6d88b93d7203ea1f1b4  pdf-reader/postinstall.ps1
+61ad80ba8e6d9287a716ad5223fef746c22ba163f782d2f355c4bee22e1c61b0  photo-album/0.7.34-pa.1/Photo-Album-0.7.34-pa.1-x64-setup.exe

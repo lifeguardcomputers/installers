@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "channel": "test",
+  "sequence": 1,
+  "issued": "2026-11-23T19:26:23Z",
+  "expires": "2027-02-21T19:26:23Z",
+  "apps": [
+    {
+      "id": "pdf-reader",
+      "name": "PDF Reader",
+      "approvedVersion": "3.6.1",
+      "installers": {
+        "arm64": {
+          "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-arm64-install.exe",
+          "sha256": "758e6e870ffeb87ea44f4424f47043578ca35462cf026f43f6ff9fd334b3d0fa",
+          "kind": "exe"
+        },
+        "x64": {
+          "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-64-install.exe",
+          "sha256": "1eee71cccd2ea6e94d5bcea54ee2f759844da3e1a0ee2f6045035b1d17b94381",
+          "kind": "exe"
+        }
+      },
+      "postInstall": {
+        "url": "https://raw.githubusercontent.com/lifeguardcomputers/installers/office-apps-test/LG-OfficeApps/pdf-reader/postinstall.ps1",
+        "sha256": "d0aebb282238d52b9939608cbcfe62bcc425197c0123f6d88b93d7203ea1f1b4",
+        "kind": "ps1"
+      },
+      "publisher": "Krzysztof Kowalczyk",
+      "silentArgs": [
+        "-install",
+        "-s",
+        "-all-users",
+        "-no-desktop-shortcut"
+      ],
+      "processes": [
+        "SumatraPDF.exe"
+      ],
+      "minWindowsBuild": 0,
+      "displayNameMatch": "SumatraPDF"
+    },
+    {
+      "id": "office-suite",
+      "name": "Documents and Spreadsheets",
+      "approvedVersion": "26.8.3.1",
+      "installers": {
+        "arm64": {
+          "url": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/win/aarch64/LibreOffice_26.8.3_Win_aarch64.msi",
+          "sha256": "8ee2ef81ca4103d3eeb06ca9f4ef0b5cbb83357d21d14a449f767bfb29183158",
+          "kind": "msi"
+        },
+        "x64": {
+          "url": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
+          "sha256": "0e6918c273eabbdbbd800ee0dacbbf130a14c13c2e4cec861b06dd59e015bf94",
+          "kind": "msi"
+        }
+      },
+      "postInstall": {
+        "url": "https://raw.githubusercontent.com/lifeguardcomputers/installers/office-apps-test/LG-OfficeApps/office-suite/postinstall.ps1",
+        "sha256": "0dd2fda6184964acc873d2c6070d49c8fd4f6ee596f0a51190db9061db1f6cb4",
+        "kind": "ps1"
+      },
+      "publisher": "The Document Foundation",
+      "silentArgs": [
+        "ALLUSERS=1",
+        "CREATEDESKTOPLINK=0",
+        "ISCHECKFORPRODUCTUPDATES=0",
+        "REGISTER_ALL_MSO_TYPES=1",
+        "QUICKSTART=0",
+        "RebootYesNo=No",
+        "REBOOT=ReallySuppress",
+        "MSIRESTARTMANAGERCONTROL=Disable",
+        "REMOVE=gm_o_Onlineupdate"
+      ],
+      "processes": [
+        "soffice.exe",
+        "soffice.bin"
+      ],
+      "minWindowsBuild": 10240,
+      "displayNameMatch": "LibreOffice"
+    },
+    {
+      "id": "photo-album",
+      "name": "Photo Album",
+      "approvedVersion": "0.7.34-pa.1",
+      "installers": {
+        "x64": {
+          "url": "https://raw.githubusercontent.com/lifeguardcomputers/installers/office-apps-test/LG-OfficeApps/photo-album/0.7.34-pa.1/Photo-Album-0.7.34-pa.1-x64-setup.exe",
+          "sha256": "61ad80ba8e6d9287a716ad5223fef746c22ba163f782d2f355c4bee22e1c61b0",
+          "kind": "exe"
+        }
+      },
+      "publisher": "unsigned",
+      "silentArgs": [
+        "/S"
+      ],
+      "processes": [
+        "photo-album.exe"
+      ],
+      "minWindowsBuild": 10240,
+      "displayNameMatch": "Photo Album"
+    }
+  ]
+}
