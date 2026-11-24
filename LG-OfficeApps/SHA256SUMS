@@ -1,8 +1,11 @@
-17553b3638fda56faa8c25da49eba29fc0843502f8d2936696bf234edf828381  TEST-GUIDE.md
-d21514beb8b34bebb6f3042b53dbb64ba74d106dee8540d5d5a8f18986b2a873  app-updater/0.1.0-test.3/appupdater-arm64.exe
-4b269686434f4e741dc10f80509b31571e4c4069d09164ccd56f101d8b3ec97d  app-updater/0.1.0-test.3/appupdater-x64.exe
-664abf27a03facb4ecf6f238a6289b4a40200ea4cf6ce2add67a908e78cc1765  manifest.test.json
-7211efd448938153367b1dc4964a4bc4ec784c69679b17fbe91fd82cb6ad60ea  manifest.test.json.sig
+68290c6d267e4a953cc4828b906324b4d3799982915be972d6f3dfc6d6b1ef56  OfficeApps-Setup.exe
+d67b1abf28ffc265f19f4170175b6ca70a628abbad59bc1d701d9e36fbda14bf  TEST-GUIDE.md
+185c4a21c821362667bb44230abc42b463acdc5804017e7424abe689144e242c  app-updater/0.1.0-test.14/appupdater-arm64.exe
+4867313f05ee95be525da17e105ff2d64cbf852393009899fd15bb0c1ece3b08  app-updater/0.1.0-test.14/appupdater-x64.exe
+99188ef2ffd81843762618889a5fbbb6c7c1f01d64af2c5346b08386c35839c1  install-officeapps.ps1
+da91ad72c33f19f559e331472b2e815c1ade91d4f3544ec0389d502508c577e7  manifest.test.json
+c3e0cd2390199254a1c068147faac118a43e46b8d2abef3f6582523337035f06  manifest.test.json.sig
 0dd2fda6184964acc873d2c6070d49c8fd4f6ee596f0a51190db9061db1f6cb4  office-suite/postinstall.ps1
 d0aebb282238d52b9939608cbcfe62bcc425197c0123f6d88b93d7203ea1f1b4  pdf-reader/postinstall.ps1
-61ad80ba8e6d9287a716ad5223fef746c22ba163f782d2f355c4bee22e1c61b0  photo-album/0.7.34-pa.1/Photo-Album-0.7.34-pa.1-x64-setup.exe
+a00dd9e0b87359564cfe36db3f066ff6f065d9af380f530fcc61724cfa5695bd  photo-album/0.7.34-pa.1/Photo-Album-0.7.34-pa.1-x64-setup.exe
+b65907cf7f95e72a9603db263743e688617744fa27502bb511e1548e8915f201  uninstall-officeapps.ps1

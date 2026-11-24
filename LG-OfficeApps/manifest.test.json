@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "channel": "test",
-  "sequence": 1,
-  "issued": "2026-11-23T19:26:23Z",
-  "expires": "2027-02-21T19:26:23Z",
+  "sequence": 2,
+  "issued": "2026-11-24T07:46:27Z",
+  "expires": "2027-02-22T07:46:27Z",
   "apps": [
     {
       "id": "pdf-reader",
@@ -70,6 +70,7 @@
         "RebootYesNo=No",
         "REBOOT=ReallySuppress",
         "MSIRESTARTMANAGERCONTROL=Disable",
+        "ADDLOCAL=ALL",
         "REMOVE=gm_o_Onlineupdate"
       ],
       "processes": [
@@ -86,7 +87,7 @@
       "installers": {
         "x64": {
           "url": "https://raw.githubusercontent.com/lifeguardcomputers/installers/office-apps-test/LG-OfficeApps/photo-album/0.7.34-pa.1/Photo-Album-0.7.34-pa.1-x64-setup.exe",
-          "sha256": "61ad80ba8e6d9287a716ad5223fef746c22ba163f782d2f355c4bee22e1c61b0",
+          "sha256": "a00dd9e0b87359564cfe36db3f066ff6f065d9af380f530fcc61724cfa5695bd",
           "kind": "exe"
         }
       },
